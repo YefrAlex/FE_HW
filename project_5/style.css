@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* обертка */
+.wrapper {
+    width: 60%;
+    margin: auto;
+}
+/* header */
+
+.mein {
+    height: 700px;
+    background-color: #EEEFF1;
+    
+}
+.menu {
+    
+    height: 25%;
+    display: flex;
+    align-items: center;
+    
+}
+.wd {
+    margin: auto;
+    width: 58%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.wrapper-mein {
+    height: 450px;
+    width: 900px;
+    background-color: aqua;
+    margin-left: 487 px;
+
+}
+
+.navbar-nav {
+        display: flex;
+    
+}
+li {
+    list-style-type: none;
+         }
+.nav-link {
+    text-decoration: none;
+    }
+a {
+    
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.1em;
+color: black;
+}
+.active {
+    color: #34547A;
+}
+li:not(:last-child) {
+    margin-right: 42px;
+}
+.title {
+    height: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper-img{
+    width: 44%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.text-blok {
+    width: 49.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.disign-title {
+    font-weight: 500;
+font-size: 48px;
+line-height: 79px;
+
+}
+.disign-discr {
+    font-size: 16px;
+line-height: 26px;
+width: 540px;
+height: 67px;
+margin: 60px 0 60px;
+}
+
+/* about-me */
+.about-me {
+    font-family: 'Roboto', sans-serif;
+    width: 28%;
+    margin: 105px 690px;
+   
+}
+
+.about-me-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about-me-discription {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+
+/* numbers */
+
+.numbers {
+    height: 250px;
+    background-color: #34547A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-numbers {
+    height: 20%;
+    width: 58%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.block-number {
+    width: 12.7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quantaty {
+    height: 88%;
+
+}
+
+/* мои навыки */
+
+
+.skills {
+    padding: 100px 0;
+
+}
+
+.skills-wrapper {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills-info {
+    width: 40%;
+
+}
+
+.skills-img {
+    display: block;
+    width: 50%;
+}
+
+.skill-scale:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.skill-scale-outer {
+    height: 4px;
+    background-color: #C4C4C4;
+
+}
+
+.skill-scale-inner {
+    width: 70%;
+    height: 100%;
+    background-color: #34547A;
+}
+
+.skills-title {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.skill-name {
+    color: #727272;
+    margin-bottom: 20px;
+
+}
+
+/* как я работаю */
+.process {
+    padding: 100px;
+    background-color: #EEEFF1;
+}
+
+.process-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.precess-descr {
+    width: 50%;
+    margin: 50px auto 60px;
+    text-align: center;
+    color: #727272;
+}
+
+.process-video {
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects-item {
+    width: 25%;
+    aspect-ratio: 1/1;
+    background-image: url(./images/stiker.png);
+    background-size: cover;
+}
+
+.projects-item-inner {
+    height: 100%;
+    background-color: aquamarine;
+    background: linear-gradient(0deg, rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8));
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-item-inner:hover {
+    opacity: 1;
+}
+
+.laptop {
+    background-image: url(./images/laptop.jpg);
+}
+
+/* клиенты */
+.clients {
+    height: 120px;
+    margin: 100px 405px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.client {
+    width: 22.7%;
+    height: 100%;
+}
+
+/* формы ввода */
+.form {
+    background: #EEEFF1;
+    padding: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-wrapper {
+    width: 30%;
+    margin: auto;
+
+}
+
+.form-title {
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+}
+
+.form-descr {
+    color: #727272;
+    margin: 50px 0 65px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.form-control {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+textarea {
+    width: 100%;
+    margin: 20px 0 50px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[name="name"],
+input[name="email"] {
+    width: 45%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type="submit"] {
+
+    display: block;
+    margin: auto;
+    padding: 20px 45px;
+    background: #34547A;
+    border: none;
+    outline: none;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+/* footer */
+footer {
+    height: 151px;
+    background-color: #34547A;
+    display: flex;
+    align-items: center;
+
+}
+
+.social {
+    width: 175px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.name {
+    color: white;
+    font-family: 'Roboto';
+    margin-left: 21%;
+    margin-right: 40%;
+}
+
+.name-title {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.copyright {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+}
